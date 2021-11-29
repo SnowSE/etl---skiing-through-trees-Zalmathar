@@ -28,7 +28,7 @@ namespace Skiing_Amongst_Trees
             int collisions = 0;
             while (cursor.posY < map.map.Count)
             {
-                char CurVal = map.map[cursor.posY].ToString()[cursor.posX];
+                char CurVal = map.map[cursor.posY][cursor.posX];
                 if (CurVal == '#')
                 {
                     collisions += 1;
