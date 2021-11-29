@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace Skiing_Amongst_Trees
 {
@@ -6,7 +7,8 @@ namespace Skiing_Amongst_Trees
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!"); 
+            Skii skii = new Skii();
+            Console.WriteLine(skii.CalcCollisions());
         }
     }
 }
